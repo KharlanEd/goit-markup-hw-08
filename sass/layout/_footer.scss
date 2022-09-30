@@ -21,6 +21,8 @@ address {
 
 .contact__wraper {
     margin-bottom: 60px;
+
+    text-align: center;
 }
 .address {
     display: flex;
@@ -115,11 +117,16 @@ address {
 
     fill: #FFFFFF;
 }
+@media screen and (max-width: 768px) {
+    
+
 
 .footer-form-wraper {
     width: 100%;
 }
+}
 .footer-input {
+   
     margin-bottom: 20px;
     padding: 15px;
     width: 100%;
@@ -187,15 +194,27 @@ address {
         }
 
 .contact__wraper {
+   
     margin-bottom: 0;
+    
 }
+.footer-input {
+    width: 450px;
+}
+
 }
 
 @media screen and (min-width: 1200px) {
-    
+.contact__wraper {
+    text-align: start;
+}
+.address__wraper {
+    gap: 70px;
+}
 
-
-
+.footer-logo {
+    margin: 0 0 20px;
+}
 .address {
 
 

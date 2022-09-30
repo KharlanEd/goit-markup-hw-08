@@ -32,6 +32,8 @@
 .header {
     padding-top: 16px;
     padding-bottom: 16px;
+
+    border: 1px solid #ECECEC;
 }
 .logo-link {
 
@@ -168,7 +170,7 @@
     }
     .contact-list {
             display: flex;
-            gap: 70px;
+            gap: 30px;
             margin-left: auto;
             align-content: center;
             justify-content: center;
@@ -177,10 +179,7 @@
         .contact-list__item {
             margin: 0;
         }
-        .contact-list__item:not(:last-child) {
-            margin-right: 50px;
-        }
-
+       
         .contact-list__link {
             display: flex;
             align-items: center;
