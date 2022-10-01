@@ -1,11 +1,15 @@
 
+    
+    
 .btn-item {
-    width: 326px;
+   
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
     column-gap: 8px;
     row-gap: 15px;
+    flex-basis: calc((100% - 16px) / 3);
+    
     
 }
 
@@ -35,6 +39,11 @@
     }
 }
 
+@media screen and (min-width: 350px)  {
+   .btn-item {
+    width: 326px;
+   } 
+}
 
 @media screen and (min-width: 768px) {
     
